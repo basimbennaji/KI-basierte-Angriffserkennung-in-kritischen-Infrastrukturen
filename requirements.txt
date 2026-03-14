@@ -1,0 +1,10 @@
+pandas
+numpy
+kagglehub
+joblib
+scikit-learn
+matplotlib
+seaborn
+torch
+xgboost
+cupy-cuda12x 
