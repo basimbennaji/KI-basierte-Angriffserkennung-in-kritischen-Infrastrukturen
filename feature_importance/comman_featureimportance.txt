@@ -1,0 +1,18 @@
+Lade verarbeitete Daten...
+Rekonstruiere originale Spaltennamen...
+Trainiere Decision Tree für die Analyse...
+Berechne Feature Importances...
+
+--- TOP 5 WICHTIGSTE MERKMALE ---
+1. TotLen Bwd Pkts (0.6253)
+2. Flow IAT Min (0.2460)
+3. Protocol (0.0621)
+4. Flow IAT Max (0.0203)
+5. Idle Std (0.0119)
+d:\Repos\telematik\feature-importnace.py:44: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_importances, y=top_features, palette="viridis")
+
+Grafik als 'feature_importance.png' gespeichert!
