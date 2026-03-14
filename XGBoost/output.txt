@@ -1,0 +1,17 @@
+Loading data...
+Training XGBoost...
+Training Time: 11.17 seconds
+Evaluating XGBoost...
+
+--- XGBoost Classification Report ---
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00   1462621
+      Attack       1.00      1.00      1.00    115238
+
+    accuracy                           1.00   1577859
+   macro avg       1.00      1.00      1.00   1577859
+weighted avg       1.00      1.00      1.00   1577859
+
+Saved cm_xgboost.png
+Saved roc_xgboost.png
